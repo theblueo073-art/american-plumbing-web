@@ -15,6 +15,17 @@ import {
   X,
   ArrowRight,
   CheckCircle2,
+  Flame,
+  Thermometer,
+  Waves,
+  Trash2,
+  Video,
+  Pipette,
+  Toilet,
+  Home as HomeIcon,
+  Zap,
+  Filter,
+  Hammer,
 } from "lucide-react";
 import heroImg from "@/assets/hero-plumber.jpg";
 
@@ -54,34 +65,94 @@ const NAV = [
 
 const SERVICES = [
   {
+    icon: ShieldCheck,
+    title: "Backflow Certification & Repair",
+    body: "Backflow preventers keep your drinking water clean. We test, certify and repair to protect your home's water supply.",
+  },
+  {
     icon: Search,
     title: "Electronic Leak Detection",
-    body: "Our specialists pin-point where leaks originate using precise electronic detection—no guesswork, no unnecessary damage.",
+    body: "Pinpoint underground, slab and behind-the-wall leaks with precision electronics—no unnecessary demolition.",
+  },
+  {
+    icon: Droplets,
+    title: "Faucets",
+    body: "Kitchen, bath, tub, shower, laundry or shut-off valves—repair or replacement by experienced technicians.",
+  },
+  {
+    icon: Trash2,
+    title: "Garbage Disposals",
+    body: "Repair or replace jammed, leaking or worn-out disposals so food waste goes down the drain, not into the trash.",
+  },
+  {
+    icon: Flame,
+    title: "Gas Lines",
+    body: "Installation, repair and leak testing for the gas lines that fuel your cooking, heating and hot water.",
+  },
+  {
+    icon: Thermometer,
+    title: "Hot Water Recirculating System",
+    body: "Stop waiting—and stop wasting water. Get hot water at every fixture the moment you turn the tap.",
+  },
+  {
+    icon: Waves,
+    title: "Hydro-Jetting",
+    body: "High-pressure water streams up to 3,500 PSI scour sewer pipes clean of grease, roots and stubborn buildup.",
+  },
+  {
+    icon: Gauge,
+    title: "Pressure Regulators",
+    body: "Control incoming water pressure and flow to protect fixtures and prevent pipe damage throughout your home.",
   },
   {
     icon: ShieldCheck,
-    title: "Preventative Maintenance",
-    body: "Peace of mind through a well-maintained plumbing system. Catch small issues before they become expensive problems.",
+    title: "Preventative Maintenance Plans",
+    body: "Scheduled inspections and tune-ups so small issues never become emergencies. Peace of mind, guaranteed.",
+  },
+  {
+    icon: Hammer,
+    title: "Repipe / Remodel",
+    body: "End slab leaks, low pressure and rusty water with a professional whole-home repipe or remodel.",
+  },
+  {
+    icon: Filter,
+    title: "Septic Tank Service & Maintenance",
+    body: "Pumping, inspection and maintenance to keep residential and commercial septic systems flowing.",
   },
   {
     icon: Droplets,
     title: "Sewer & Drain Cleaning",
-    body: "Clogged drain? Our experienced technicians clear stoppages fast and keep everything running smoothly.",
+    body: "Fast, thorough clearing of clogged drains and main sewer lines—when do-it-yourself efforts fail.",
   },
   {
-    icon: Wrench,
-    title: "Repipe / Remodel",
-    body: "Solve slab leaks, pin-hole leaks, low pressure and rusty water with a professional repipe or remodel.",
+    icon: Video,
+    title: "Sewer-Line Video Inspection",
+    body: "A high-resolution camera goes inside your pipes to reveal the exact cause and location of the problem.",
+  },
+  {
+    icon: HomeIcon,
+    title: "Septic Service, Repair & Replacement",
+    body: "Full septic system repair and replacement—done safely and correctly to avoid costly damage.",
+  },
+  {
+    icon: Zap,
+    title: "Sump & Booster Pump Replacement",
+    body: "Keep basements dry and pressure up with the right sump or booster pump—installed and tested.",
+  },
+  {
+    icon: Toilet,
+    title: "Toilet Repair & Replacement",
+    body: "Leaking, running or won't flush? We diagnose fast and repair or replace with quality fixtures.",
+  },
+  {
+    icon: Pipette,
+    title: "Trenchless Sewer Repair & Replacement",
+    body: "Replace failing sewer lines with minimal digging—save your landscaping, driveway and time.",
   },
   {
     icon: Gauge,
     title: "Water Heaters",
-    body: "Same-day installation and repair for tank and tankless water heaters from trusted, courteous technicians.",
-  },
-  {
-    icon: Clock,
-    title: "24 Hour Emergency",
-    body: "Burst pipes and midnight backups don't wait. Neither do we—call anytime, we're open 24 hours.",
+    body: "Same-day repair and installation for tank and tankless water heaters from courteous, licensed pros.",
   },
 ];
 
