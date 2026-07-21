@@ -15,6 +15,17 @@ import {
   X,
   ArrowRight,
   CheckCircle2,
+  Flame,
+  Thermometer,
+  Waves,
+  Trash2,
+  Video,
+  Pipette,
+  Toilet,
+  Home as HomeIcon,
+  Zap,
+  Filter,
+  Hammer,
 } from "lucide-react";
 import heroImg from "@/assets/hero-plumber.jpg";
 
