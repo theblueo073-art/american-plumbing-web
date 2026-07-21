@@ -39,11 +39,11 @@ export const Route = createFileRoute("/")({
         content:
           "Voted AV's Best 13 years in a row. 24/7 residential & commercial plumbing in Lancaster & Palmdale, CA. Request an estimate today.",
       },
-      { property: "og:title", content: "American Plumbing Services, Inc." },
+      { property: "og:title", content: "American Plumbing Services, Inc. — Lancaster & Palmdale Plumber" },
       {
         property: "og:description",
         content:
-          "Fast & Friendly Service, Value & Quality You Can Trust. Serving Lancaster & Palmdale 24/7.",
+          "Voted AV's Best 13 years in a row. 24/7 residential & commercial plumbing in Lancaster & Palmdale, CA. Request an estimate today.",
       },
     ],
   }),
